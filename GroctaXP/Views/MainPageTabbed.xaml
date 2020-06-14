@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core" 
+            xmlns:grocta="clr-namespace:GroctaXP.Views"
+            mc:Ignorable="d"
+            x:Class="GroctaXP.Views.MainPageTabbed"
+            BarBackgroundColor="{StaticResource ColorWhite}"
+            SelectedTabColor="{StaticResource ColorPrimary}"
+            UnselectedTabColor="{StaticResource ColorGray}">
+    <!--Pages can be added as references or inline-->
+    <!--<ContentPage Title="MENU" IconImageSource="ai_menu_person.png" />-->
+    <grocta:TabHomeMenu Title="MENU" IconImageSource="ai_tab_menu.png" />
+    <ContentPage Title="GROCTA" IconImageSource="ai_tab_store_outline.png" />
+    <ContentPage Title="SEARCH" IconImageSource="ai_tab_search.png" />
+    <ContentPage Title="BASKET" IconImageSource="ai_tab_basket_outline.png" />
+   
+</TabbedPage>
