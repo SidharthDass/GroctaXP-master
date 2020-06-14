@@ -11,7 +11,7 @@ using FFImageLoading.Cache;
 using FFImageLoading.Forms.Platform;
 using GroctaXP.Droid.Extensions.Renderers;
 
-namespace GroctaXP.Droid
+namespace GroctaXP.Droid   
 {
     [Activity(Label = "GroctaXP", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
